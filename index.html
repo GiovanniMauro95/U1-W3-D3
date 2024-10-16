@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compito</title>
+    <link href="./assets/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+    </header>
+    <main>
+      <div>
+        <form>
+          <label for="task">Inserisci la task!</label>
+          <input id="task" required />
+          <button id="Aggiungi" onclick="buttonClick(event)">
+            Aggiungi task
+          </button>
+        </form>
+      </div>
+      <div>
+        <h2>Ecco le cose da fare:</h2>
+        <ul id="list"></ul>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
